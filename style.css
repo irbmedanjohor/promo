@@ -35,7 +35,7 @@ nav {
 }
 
 nav .logo {
-    height: 50px;
+    height: 90px;
     margin-right: 10px;
 }
 
@@ -129,20 +129,6 @@ footer {
 .footer__text {
     margin: 10px 0 0;
     font-size: 12px;
-}
-
-/* Responsive image replacement */
-@media (max-width: 600px) {
-    .responsive-img {
-        content: url('image2.png'); /* Change to image2.png when width is less than 600px */
-    }
-}
-
-/* If you want to keep the original image for screen widths greater than 600px */
-@media (min-width: 601px) {
-    .responsive-img {
-        content: url('free1jam.png'); /* Original image */
-    }
 }
 
 /* Responsive styling */
